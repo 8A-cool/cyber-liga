@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+.header {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Основной контент */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url('background-image.jpg'); /* Задать фон при необходимости */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Блоки с текстом и изображением */
+.block {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.block img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.block p {
+    margin: 15px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
